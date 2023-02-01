@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kgdb"
+version = "0.1.0"
+description = ""
+authors = ["phucty <phuc.nii.ac.jp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+psutil = "^5.9.4"
+freaddb = "^0.0.9"
+rdflib = "^6.2.0"
+tqdm = "^4.64.1"
+ftfy = "^6.1.1"
+scipy = "^1.10.0"
+wikitextparser = "^0.51.1"
+elasticsearch = "^8.3.1"
+marisa-trie = "^0.7.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
